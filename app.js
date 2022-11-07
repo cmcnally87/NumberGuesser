@@ -23,7 +23,7 @@ submit.addEventListener('click', (e)=>{
     if(!guess.value){
         alert('Please enter a number')
     } else if(parseInt(guess.value) <= 0 || parseInt(guess.value) > 10){
-        alert('Guess must be between 1 and 10');
+        alert('Your guess must be between 1 and 10');
     } else {
         compareNumbers(guess.value);
     }
